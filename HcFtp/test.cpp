@@ -12,8 +12,8 @@ void shangchuang();
 void main()
 {
 
-	//xiazai();
-	//shangchuang();
+	xiazai();
+	shangchuang();
 	//s = upload("127.0.0.1", "ljh", "123", "/", "e:", "qt.exe", "qt.exe");
 	//s = download("127.0.0.1", "ljh", "123", "/b/ba", "e:", "qt-opensource-windows-x86-mingw530-5.7.1.exe", "qt-opensource-windows-x86-mingw530-5.7.1.exe");
 	//s = logon("127.0.0.1", "ljh", "123");
