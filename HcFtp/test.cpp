@@ -12,7 +12,7 @@ void shangchuang();
 void main()
 {
 
-	//xiazai();
+	xiazai();
 	//shangchuang();
 	//s = upload("127.0.0.1", "ljh", "123", "/", "e:", "qt.exe", "qt.exe");
 	//s = download("127.0.0.1", "ljh", "123", "/b/ba", "e:", "qt-opensource-windows-x86-mingw530-5.7.1.exe", "qt-opensource-windows-x86-mingw530-5.7.1.exe");
@@ -34,7 +34,7 @@ void xiazai()
 		
 	{
 		cout << iret << endl;
-		cout << "下载完成  Md5校验成功 = " << md5 << endl;
+		cout << "涓嬭浇瀹屾垚  Md5鏍￠獙鎴愬姛 = " << md5 << endl;
 	}
 	else
 	{
@@ -51,7 +51,7 @@ void shangchuang()
 	if (!(iret=upload("127.0.0.1", "ljh", "123", "/", "e:/", "hb.zip", lpErrorBuf, 512, md5retrun, 33, 1)))
 	{
 		cout << iret << endl;
-		cout << "上传完成成功  Md5 = " << md5retrun << endl;
+		cout << "涓婁紶瀹屾垚鎴愬姛  Md5 = " << md5retrun << endl;
 	}
 	else
 	{
